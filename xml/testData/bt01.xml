@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+    <b:skin><![CDATA[/*
+-----------------------------------------------
+      Best Theme Style
+-----------------------------------------------
+Name           : Simple Orange Blogger Template
+Converted by   : Vk Bhardwaj
+Converters URI : http://www.besttheme.net/
+Tags           : Tech, Technology, Ads Ready, Two Columns, Right Sidebar, Fixed 
+-----------------------------------------------
+WP.Author Name : Template Mo
+WP.Author URI  : www.templatemo.com
+----------------------------------------------- */
+#navbar-iframe{
+   height:0px;
+   visibility:hidden;
+   display:none;
+}
+
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+body {
+    margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #cccccc;
+	background: #b43301 url(http://4.bp.blogspot.com/_yPlAAAH9bEo/S_20K3N9HOI/AAAAAAAABXQ/DJEpD8iH780/s1600/templatemo_main_bg.jpg) repeat-x;
+}
+
+]]></b:skin>
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<style>.comment-link {display:none;}
+.post-footer-line-1 {display:none;}
+.post-footer-line-3 {display:none;}
+.post-labels {display:none;}
+</style>
+</b:if>
+  </head>
+
+  <body>
+<div id='templatemo_container'> 
+<div id='templatemo_site_title_bar'> 
+<div id='site_title'> 
+<h1><a href='/' target='_blank'> 
+<!--
+Simple Orange
+<span>your tagline goes here</span>
+--> 
+<img src='http://3.bp.blogspot.com/_yPlAAAH9bEo/S_3W5K2HsaI/AAAAAAAABaI/v0SJ_ynBp7Q/s1600/templatemo_logo.jpg'/><span>WWW.BESTTHEME.NET</span> 
+            </a></h1> 
+
+        </div> 
+	</div> <!-- end of templatemo_site_title_bar --> 
+    
+    <div id='templatemo_menu'> 
+	    <ul> 
+            <li><a class='current' href='#'>Home</a></li> 
+            <li><a href='#'>Web Design</a></li> 
+            <li><a href='http://www.templatemo.com' target='_blank'>Templates</a></li> 
+            <li><a href='#'>Gallery</a></li> 
+            <li><a href='#'>Contact</a></li> 
+        </ul> 
+    </div> <!-- end of templatemo_menu --> 
+    
+    <div id='templatemo_content_wrapper'> 
+    
+    	<div id='templatemo_content'> 
+        
+        	
+<div id='side_column'>          
+<div class='side_column_box'>                 
+<b:section class='sidebar' id='sidebar' preferred='yes'>
+<b:widget id='Feed1' locked='false' title='Current Activities' type='Feed'>
+<b:includable id='main'>
+    <h2><data:title/></h2>
+    <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
+      <span style='filter: alpha(25); opacity: 0.25;'>
+        <a expr:href='data:feedUrl'><data:loadingMsg/></a>
+      </span>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+</b:widget>
+</b:section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body> 
+</html>
